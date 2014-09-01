@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* G E N E R A L */
+div {
+	border-radius: 0;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+/* N A V A G A T I O N */
+
+nav {
+	display: block;
+	width: 100%;
+	Height: 50px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #42C0BA;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+nav li {
+	display: inline;
+	padding: 20px;
+}
+
+
+#left{
+	float: left;
+	
+}
+
+#right {
+	float: right;
+	margin-top: -8px;
+}
+
+
+/* H E A D E R */
+
+header {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: #66E1DB;
+	margin-top: -22px;
+	
+}
+
+header h1 {
+	color: white;
+	padding-top: 20px;
+	text-align: center;
+	font-size:	3em;
+	font-family: "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	text-shadow: 1px 1px 2px #009D92;
+}
+
+/* B L O G */
+
+#blog {
+	float: left;
+	width: 65%;
+	margin: auto;
+}
+
+#blog h2 {
+	font-size: 2.5em;
+	font-family:"Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+#blog h3 {
+	text-align: center;
+	font-size: 1em;
+	font-family: "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+}
+
+#blog p {
+	margin: 30px;
+	size: 1em;
+	font-family:  "Century Schoolbook L", "Times New Roman", serif;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+
+/* S I D E */
+
+#side {
+	float: right;
+	width: 25%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+#side img {
+	width: 300px;
+	border-radius: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+	
+#side p {
+	text-align: center;
+	font-size: 1em;
+	font-family: "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	
+}
+
+/* F O O T E R */
+
+footer {
+	clear:both;
+	display: block;
+	background-color: #66E1DB;
+	radius: 10%;
+	height: 50px;
+}
+
+footer p {
+	font-size: 1em;
+	font-family: "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	padding-left: 30px;
+	padding-top: 15px;
+}
