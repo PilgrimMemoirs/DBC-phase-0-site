@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+
+/* * * G  E  N  E  R  A  L * * */
+
+	/* Find a few google fonts for headers and paragraph text**/
+
+
+body {
+	background-color: #484848;
+	margin: 0px auto;
+	min-width: 960px;
+  	width: 100%;
+	padding-right: 25%;
+}
+
+ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
+#
+/* * * N  A  V  I  G  A  T  I  O  N  * * */
+
+
+  
+  
+/* * *  H  E  A  D  E  R  * * */
+
+header {
+	display: block;
+	width: 100%;
+	background-image: url(../img/Chicago_Skyline_JamiePilgrim.jpg);
+	background-position: left bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	text-align: center;
+	margin: auto;
+	color: #fff;
+}
+
+header right {
+	float: right;
+}
+header img {
+	float: left;
+}
+
+/*  *  *  A  B  O  U  T     M  E  * * */
+
+#intro {
+	display: block;
+	width: 100%;
+	background-image:url(../img/paperbg3.jpg);
+	background-position: left bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	text-align: center;
+	margin: auto;
+	color: #fff;
+}
+
+
+/* * *   B  L  O  G  * * */
+
+#blog {
+	display: block;
+	width: 100%;
+	background-image: url(../img/Chicago2_jamiepilgrim.jpg);
+	background-position: left bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	text-align: center;
+	margin: auto;
+	color: #fff;
+}
+
+
+
+/* * *  P  R  O  J  E  C  T  S  * * */
+
+
+
+
+
+/* * *  C  O  N  T  A  C  T  * * */
+
+
+
+
+
+/* * *  F O  O  T  E  R  * * */
+
+footer {
+	
+	Display: block;
+	size: 100%;
+	background-color: #484848;
+}
+
