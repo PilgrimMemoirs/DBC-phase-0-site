@@ -1,0 +1,39 @@
+      h1 {
+	          font-family:'arial' ;
+	          color: #003366;
+	      } 
+	      header {
+	          text-align:center;
+	          background-color: #ccc;
+	          color: #003366 ;
+	      }
+	      article {
+	          width: 80%;
+	          margin-right: auto;
+	          margin-left: auto;
+	          background-color: #CCCC99;
+	          
+	      }
+	      h2 {
+	          font-family:'arial';
+	          font-size: 1em;
+	          color: #003366;
+	          margin-left: 10px;
+	      }
+	      footer {
+	          text-align:center;
+	          background-color: #ccc;
+	          font-family:'arial'
+	      }
+	       article p {font-family: 'arial';
+	                   margin-right: 20px;
+	                   margin-left: 20px;
+	                   padding: 5px;
+	      }
+	     
+	    article img {
+	      width: 30%;   
+	     display: block;
+        margin-left: auto;
+        margin-right: auto;
+	     }
