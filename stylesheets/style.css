@@ -248,9 +248,11 @@ article p {
 	text-align: justify;
 	font-family:  Georgia, serif;
 	font-size: 1.25em;
+	line-height: 1.3em;
 	}
 	
 article h3 {
+	color: #f45030;
 	text-align: justify;
 	font-size: 2.25em;
 }
