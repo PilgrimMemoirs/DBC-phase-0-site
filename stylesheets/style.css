@@ -3,6 +3,7 @@
 
 body { 
 	background-color: #4D4D4D;
+	font-family: Helvetica,  sans-serif;
 }
 
 h1, h2, h3, p {
@@ -231,3 +232,25 @@ footer li {
 	padding: 5px;
 }
 
+/** Blog Index, Blog Posts & Project Index **/
+
+#Posts, #projectindex, article {
+	display: block;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+article p {
+	text-align: justify;
+	font-family:  Georgia, serif;
+	font-size: 1.25em;
+	}
+	
+article h3 {
+	text-align: justify;
+	font-size: 2.25em;
+}
