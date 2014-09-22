@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>#DevLyfe | Week 4 | Ruby</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/reset.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" charset="utf-8"/>
+</head>
+<body>
+    <nav>
+      <ul>
+          <li><img src="../img/logo.png"></li>
+          <li><a href="../index.html"> HOME </a></li>
+          <li><a href="../blogindex.html"> BLOG </a></li>
+          <li><a href="../dbcprojects.html"> PROJECTS </a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h2 id="top"> Week Four </h2>
+        <h1 id="name"> Ruby Map Method </h1>
+        <h2 id="bottom"> September 20, 2014 </h2>
+    </header>
+    
+         <div id="social">
+              <ul id="icons">
+                  <li> <a href="https://github.com/PilgrimMemoirs" target="_blank"><img src="../img/github.png"></a> </li>
+                  <li><a href="plus.google.com/u/0/+JamiePilgrimMemoirs" target="_blank"><img src="../img/googleplus.png"></a></li>
+                  <li><a href="http://www.linkedin.com/pub/jamie-pilgrim/44/a25/6a6/" target="_blank"><img src="../img/linkedin.png"></a></li>
+                  <li> <a href="https://twitter.com/devlyfe" target="_blank"><img src="../img/twitter.png"></a></li>
+                  <li><a href="https://www.facebook.com/hirejamiepilgrim" target="_blank"><img src="../img/facebook.png"></a></li>
+              </ul>
+            </div>
+        
+        
+	<article>
+		<h3> The Map Method</h3>
+		<p>&nbsp;</p>
+        <p>
+Similar to .each method, the .map method runs each element of the array through the code block and returns the processed elements. 
+<br><br>
+Unlike the .each method, the .map method will actually return a new array of the altered elements. This new array is the same size as the original, in the same order, but with the new elements. 
+</p>
+        <p><br>
+        Implementing the map method is pretty easy stuff. Take the name of your array and slap .map behind and you’re gravy.</p>
+        <p>&nbsp;</p>
+        <p> <strong>Example: </strong></p>
+        <p>#Our Array:</p>
+        <p> arr = [ 1, 2, 3, 4, 5]          </p>
+        <p>&nbsp;</p>
+        <p>#daisy chained with another defined method:          </p>
+        <p>arr.map.reverse          </p>
+        <p>&nbsp;</p>
+        <p>#returns: </p>
+        <p>[ 5, 4, 3, 2, 1 ] </p>
+        <p>&nbsp;</p>
+        <p>#With a method:          </p>
+        <p>arr.map {|num| num * 2}          </p>
+        <p>&nbsp;</p>
+        <p>#returns: </p>
+        <p>[ 2, 4, 6, 8, 10 ] </p>
+	</article>
+
+<footer>
+<h3> &copy; 2014 Jamie Pilgrim </h3>
+</footer>
+</body>
+</html>
