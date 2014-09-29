@@ -18,7 +18,7 @@
     
     <header>
         <h2 id="top"> Week Five </h2>
-        <h1 id="name"> Classy Ruby </h1>
+        <h1 id="name"> Ruby Classes </h1>
         <h2 id="bottom"> September 28, 2014 </h2>
     </header>
     
@@ -34,11 +34,65 @@
         
         
 	<article>
-		<h3> Working with classes in Ruby</h3>
+		<h3> When, Why & How to Classes in Ruby</h3>
 		<p>&nbsp;</p>
         <p>
+Sometimes in ruby you'll have multiple objects that require the same actions(methods), that's where using a class comes handy. Especially when those similiar objects start reaching large large quantities, you'll want a way  to automate thier actions.
+In the example below I created a class that takes a farm animal and the quanity of that animal as it's initial input to find out how much food and housing you'll need for all your animals. 
 
+
+	<h3> Example</h3>
+	<p>
+	<blockquote>
+    class FarmAnimal  #Define the Class. Class names use CamelCase
+    	<p>
+	<p>def initialize(quantity)     #An initialize method. Will expect 1 argument, in this case the quantity of that particular farm animal
+	<p> @quanity=quantity		#The argument is turned into an instance variable so it can be used throughout the class. An @ before the name of the variable makes it an instance variable.
+	<p>end
+	<p>
+    <p>def needs		#This will be the method you call to find out what you need for each breed of animal. It calls instance varibles set below.
+        <p>p @stays
+        <p>p @eats
+    <p>end
+    <p>
+<p>    
+<p>	def eats(food, amount_per_day)		#A method to calculate how much food you'll need per day for each breed. Gives output string sentence saying exactly what you need.
+<p>	 amount_of = @quanity * amount_per_day
+<p>	@eats ="You need #{amount_of} #{food} per day."
+<p>	end
+<p>	
+<p>	
+<p>	def stays(housing, acre) 	#A method to calculate how many acres of the kind of housing you'll need for each breed. Gives output string sentence saying exactly what you need.
+<p>	  amount_of = @quanity * acre
+   <p>   @stays ="You need #{amount_of} acres of #{housing}."
+<p>	end
+   <p> 
+    <p>
+<p>	end
+<p>	
+<p>	chicken = FarmAnimal.new(10)		
+<p>	chicken.eats("cups of pellets", 0.5)
+   <p> chicken.stays("range", 0.25)
+<p>	
+<p>	cow = FarmAnimal.new(5)
+<p>	cow.eats("bales of hay",2.5)
+<p>	cow.stays("pasture",1)
+   <p> 
+<p>    pig = FarmAnimal.new(3)
+<p>    pig.eats("buckets of slop", 2)
+   <p> pig.stays("pig pen", 0.5)
+<p>    
+<p>    
+<p>    p pig.needs
+<p>    p chicken.needs
+<p>    p cow.needs
+<p>		
+	</blockquote>
 	</article>
+	
+	<!-- Replace Class with an image of both class code and what's returned -->
+	
+
 
 <footer>
 <h3> &copy; 2014 Jamie Pilgrim </h3>
